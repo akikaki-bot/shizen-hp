@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="ja">
+            <head>
+                <link rel="icon" href={`/sizengakari_icon.png`} />
+            </head>
             <body className={`${inter.className}`}>
                 <NavigationBar />
                 {children}
