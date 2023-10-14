@@ -78,7 +78,7 @@ export default function Home() {
                     >
                     </Image>
                 </div>
-                <div className="flex flex-col items-center row-start-5 col-span-12 scale-in-center animate-focus-in-expand-fwd py-10">
+                <div className="flex flex-col items-center row-start-7 col-span-12 scale-in-center animate-focus-in-expand-fwd py-10">
                     <div className="py-14 items-center">
                         <h1 className='text-4xl font-bold'> サーバーに参加する準備はできましたか？ </h1>
                         <p className='text-xl font-semibold'> 
