@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["greek"] })
 
 export const metadata: Metadata = {
     title: '自然係サーバー',
-    description: '自然係サーバーの非公式HPです。',
+    description: '自然係サーバーの公式HPです。',
 }
 
 export default function RootLayout({
