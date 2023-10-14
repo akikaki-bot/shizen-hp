@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
                 <div className="row-start-2 sm:col-span-10 lg:row-start-1 lg:col-start-8 lg:col-span-6 col-span-12 col-start-1 sm:grid animate-slide-top">
                     <Image
-                        className='transform rotate-6'
+                        className='transform rotate-6 border-2 rounded border-green-400'
                         src={"/feautres_01.png"}
                         alt="会話の様子"
                         height={`500`}
@@ -53,9 +53,26 @@ export default function Home() {
                 <div className="row-start-4 sm:col-span-8 lg:row-start-2 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-2">
                     <div> ↓ここらへんにメッセージランキング </div>
                     <Image
-                        className='transform -rotate-6'
+                        className='transform -rotate-6 border-2 rounded border-green-200'
                         src={"/feautres_02.png"}
                         alt="例その１"
+                        height={`300`}
+                        width={`500`}
+                    >
+                    </Image>
+                </div>
+                <div className="row-start-5 lg:row-start-3 lg:col-start-2 lg:col-span-4 col-span-9 scale-in-center animate-focus-in-expand-fwd py-7">
+                    <h1 className='text-4xl font-bold'> すぐなじめる雰囲気 </h1>
+                    <p className='text-xl '> 
+                        自然係サーバーはどんな人でもWelcome。<br />
+                        すぐなじめて、いろんな人となかよくなれます。
+                    </p>
+                </div>
+                <div className="row-start-6 sm:col-span-8 lg:row-start-3 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-3">
+                    <Image
+                        className='transform rotate-3 border-2 rounded-xl border-green-100'
+                        src={"/feautres_03.png"}
+                        alt="例その２"
                         height={`300`}
                         width={`500`}
                     >
@@ -70,7 +87,7 @@ export default function Home() {
                     </div>
                     <Link
                       href="https://discord.gg/49Q7JhCrAK"
-                      className='bg-blue-500 hover:bg-blue-700 text-white text-xl font-bold py-4 px-8 rounded'
+                      className='bg-green-500 hover:bg-green-700 text-white text-xl font-bold py-4 px-8 rounded'
                     >
                         サーバーに参加する
                     </Link>
