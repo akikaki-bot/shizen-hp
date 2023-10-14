@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["greek"] })
 export const metadata: Metadata = {
     title: '自然係サーバー',
     description: '自然係サーバーの公式HPです。',
+    icons : "/sizengakari_icon.png"
 }
 
 export default function RootLayout({
@@ -17,9 +18,6 @@ export default function RootLayout({
 }) {
     return (
         <html lang="ja">
-            <head>
-                <link rel="icon" href={`/sizengakari_icon.png`} />
-            </head>
             <body className={`${inter.className}`}>
                 <NavigationBar />
                 {children}
