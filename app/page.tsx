@@ -26,14 +26,14 @@ export default function Home() {
                 <span className="hidden sm:grid text-4xl font-semibold">Feautures</span>
             </div>
             <div className="col-span-12 grid grid-cols-12 min-h-screen flex-col items-center sm:p-6">
-                <div className="row-start-1 lg:row-start-1 lg:col-start-2 lg:col-span-4 col-span-9 scale-in-center animate-focus-in-expand-fwd py-7">
+                <div className="row-start-1 lg:row-start-1 lg:col-start-2 lg:col-span-4 col-span-12 scale-in-center animate-focus-in-expand-fwd py-7">
                     <h1 className='text-4xl font-bold'> 絶えない会話 </h1>
                     <p className='text-xl'> 
                         会話が絶えません。<br />
                         いろんな人が、いろんなことで楽しめます。
                     </p>
                 </div>
-                <div className="row-start-2 sm:col-span-10 lg:row-start-1 lg:col-start-8 lg:col-span-6 col-span-12 col-start-1 sm:grid animate-slide-top">
+                <div className="row-start-2 sm:col-span-10 lg:row-start-1 lg:col-start-8 lg:col-span-6 col-span-12 col-start-1 sm:grid animate-slide-top py-4">
                     <Image
                         className='transform rotate-6 border-2 rounded border-green-400'
                         src={"/feautres_01.png"}
@@ -43,15 +43,15 @@ export default function Home() {
                     >
                     </Image>
                 </div>
-                <div className="row-start-3 lg:row-start-2 lg:col-start-2 lg:col-span-4 col-span-9 scale-in-center animate-focus-in-expand-fwd py-7">
+                <div className="row-start-3 lg:row-start-2 lg:col-start-2 lg:col-span-4 col-span-12 scale-in-center animate-focus-in-expand-fwd py-7">
                     <h1 className='text-4xl font-bold'> サーバーだけのBot </h1>
                     <p className='text-xl '> 
                         このサーバーだけに提供されているBotが、<br />
                         サーバーをさらに面白くしてくれます。
                     </p>
                 </div>
-                <div className="row-start-4 sm:col-span-8 lg:row-start-2 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-2">
-                    <div> ↓ここらへんにメッセージランキング </div>
+                <div className="row-start-4 sm:col-span-8 lg:row-start-2 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-2 py-4">
+                    <div className='transform -rotate-6 sm:py-2'> ↓ここらへんにメッセージランキング </div>
                     <Image
                         className='transform -rotate-6 border-2 rounded border-green-200'
                         src={"/feautres_02.png"}
@@ -61,14 +61,14 @@ export default function Home() {
                     >
                     </Image>
                 </div>
-                <div className="row-start-5 lg:row-start-3 lg:col-start-2 lg:col-span-4 col-span-9 scale-in-center animate-focus-in-expand-fwd py-7">
+                <div className="row-start-5 lg:row-start-3 lg:col-start-2 lg:col-span-4 col-span-12 scale-in-center animate-focus-in-expand-fwd py-7">
                     <h1 className='text-4xl font-bold'> すぐなじめる雰囲気 </h1>
                     <p className='text-xl '> 
                         自然係サーバーはどんな人でもWelcome。<br />
                         すぐなじめて、いろんな人となかよくなれます。
                     </p>
                 </div>
-                <div className="row-start-6 sm:col-span-8 lg:row-start-3 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-3">
+                <div className="row-start-6 sm:col-span-8 lg:row-start-3 lg:col-start-8 lg:col-span-6 col-span-10 col-start-1 sm:grid animate-slide-top-3 py-4">
                     <Image
                         className='transform rotate-3 border-2 rounded-xl border-green-100'
                         src={"/feautres_03.png"}
