@@ -29,7 +29,7 @@ export function UserIcons() {
                 <ItemContainer img="/icons/hanwia.jpg" className="bg-green-200" />
             </div>
             <div className="flex gap-[52px] justify-end px-24">
-                <ItemContainer img="/icons/nikoicon.png" className="lg:block hidden bg-green-200" />
+                <ItemContainer img="/icons/chirun.png" className="lg:block hidden bg-green-200" />
                 <ItemContainer img="/icons/nikoicon2.png" className="sm:[background-image: none] bg-green-200" />
             </div>
             <div className="flex gap-[52px] justify-end px-3">
